@@ -11,6 +11,7 @@
 
 
 @interface FWKViewController ()
+- (IBAction)startAudioRecorder:(id)sender;
 
 @end
 
@@ -28,9 +29,11 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)postAdButtonPushed:(id)sender
+
+
+- (IBAction)startAudioRecorder:(id)sender
 {
 
+    
 }
-
 @end

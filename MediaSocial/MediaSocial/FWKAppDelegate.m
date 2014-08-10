@@ -12,7 +12,6 @@
 NSString *const kAWSAccessKey = @"AKIAJO7YH3OQ7H5YUJWQ";
 NSString *const kAWSAccessSecret = @"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";
 
-
 @implementation FWKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
