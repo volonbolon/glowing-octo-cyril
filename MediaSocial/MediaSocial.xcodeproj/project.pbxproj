@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0FEFDBE1997F477006196F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDBD1997F477006196F3 /* Foundation.framework */; };
+		B0FEFDC01997F477006196F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDBF1997F477006196F3 /* CoreGraphics.framework */; };
+		B0FEFDC21997F477006196F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDC11997F477006196F3 /* UIKit.framework */; };
+		B0FEFDC81997F477006196F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFDC61997F477006196F3 /* InfoPlist.strings */; };
+		B0FEFDCA1997F477006196F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FEFDC91997F477006196F3 /* main.m */; };
+		B0FEFDCE1997F477006196F3 /* FWKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FEFDCD1997F477006196F3 /* FWKAppDelegate.m */; };
+		B0FEFDD11997F477006196F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFDCF1997F477006196F3 /* Main.storyboard */; };
+		B0FEFDD41997F477006196F3 /* FWKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FEFDD31997F477006196F3 /* FWKViewController.m */; };
+		B0FEFDD61997F477006196F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFDD51997F477006196F3 /* Images.xcassets */; };
+		B0FEFDDD1997F478006196F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDDC1997F478006196F3 /* XCTest.framework */; };
+		B0FEFDDE1997F478006196F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDBD1997F477006196F3 /* Foundation.framework */; };
+		B0FEFDDF1997F478006196F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDC11997F477006196F3 /* UIKit.framework */; };
+		B0FEFDE71997F478006196F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFDE51997F478006196F3 /* InfoPlist.strings */; };
+		B0FEFDE91997F478006196F3 /* MediaSocialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FEFDE81997F478006196F3 /* MediaSocialTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0FEFDE01997F478006196F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0FEFDB21997F477006196F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0FEFDB91997F477006196F3;
+			remoteInfo = MediaSocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0FEFDBA1997F477006196F3 /* MediaSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FEFDBD1997F477006196F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0FEFDBF1997F477006196F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B0FEFDC11997F477006196F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0FEFDC51997F477006196F3 /* MediaSocial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MediaSocial-Info.plist"; sourceTree = "<group>"; };
+		B0FEFDC71997F477006196F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0FEFDC91997F477006196F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0FEFDCB1997F477006196F3 /* MediaSocial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MediaSocial-Prefix.pch"; sourceTree = "<group>"; };
+		B0FEFDCC1997F477006196F3 /* FWKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWKAppDelegate.h; sourceTree = "<group>"; };
+		B0FEFDCD1997F477006196F3 /* FWKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWKAppDelegate.m; sourceTree = "<group>"; };
+		B0FEFDD01997F477006196F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0FEFDD21997F477006196F3 /* FWKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWKViewController.h; sourceTree = "<group>"; };
+		B0FEFDD31997F477006196F3 /* FWKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWKViewController.m; sourceTree = "<group>"; };
+		B0FEFDD51997F477006196F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0FEFDDB1997F478006196F3 /* MediaSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FEFDDC1997F478006196F3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B0FEFDE41997F478006196F3 /* MediaSocialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MediaSocialTests-Info.plist"; sourceTree = "<group>"; };
+		B0FEFDE61997F478006196F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0FEFDE81997F478006196F3 /* MediaSocialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaSocialTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0FEFDB71997F477006196F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FEFDC01997F477006196F3 /* CoreGraphics.framework in Frameworks */,
+				B0FEFDC21997F477006196F3 /* UIKit.framework in Frameworks */,
+				B0FEFDBE1997F477006196F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FEFDD81997F478006196F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FEFDDD1997F478006196F3 /* XCTest.framework in Frameworks */,
+				B0FEFDDF1997F478006196F3 /* UIKit.framework in Frameworks */,
+				B0FEFDDE1997F478006196F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0FEFDB11997F477006196F3 = {
+			isa = PBXGroup;
+			children = (
+				B0FEFDC31997F477006196F3 /* MediaSocial */,
+				B0FEFDE21997F478006196F3 /* MediaSocialTests */,
+				B0FEFDBC1997F477006196F3 /* Frameworks */,
+				B0FEFDBB1997F477006196F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0FEFDBB1997F477006196F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0FEFDBA1997F477006196F3 /* MediaSocial.app */,
+				B0FEFDDB1997F478006196F3 /* MediaSocialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0FEFDBC1997F477006196F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0FEFDBD1997F477006196F3 /* Foundation.framework */,
+				B0FEFDBF1997F477006196F3 /* CoreGraphics.framework */,
+				B0FEFDC11997F477006196F3 /* UIKit.framework */,
+				B0FEFDDC1997F478006196F3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0FEFDC31997F477006196F3 /* MediaSocial */ = {
+			isa = PBXGroup;
+			children = (
+				B0FEFDCC1997F477006196F3 /* FWKAppDelegate.h */,
+				B0FEFDCD1997F477006196F3 /* FWKAppDelegate.m */,
+				B0FEFDCF1997F477006196F3 /* Main.storyboard */,
+				B0FEFDD21997F477006196F3 /* FWKViewController.h */,
+				B0FEFDD31997F477006196F3 /* FWKViewController.m */,
+				B0FEFDD51997F477006196F3 /* Images.xcassets */,
+				B0FEFDC41997F477006196F3 /* Supporting Files */,
+			);
+			path = MediaSocial;
+			sourceTree = "<group>";
+		};
+		B0FEFDC41997F477006196F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0FEFDC51997F477006196F3 /* MediaSocial-Info.plist */,
+				B0FEFDC61997F477006196F3 /* InfoPlist.strings */,
+				B0FEFDC91997F477006196F3 /* main.m */,
+				B0FEFDCB1997F477006196F3 /* MediaSocial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0FEFDE21997F478006196F3 /* MediaSocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0FEFDE81997F478006196F3 /* MediaSocialTests.m */,
+				B0FEFDE31997F478006196F3 /* Supporting Files */,
+			);
+			path = MediaSocialTests;
+			sourceTree = "<group>";
+		};
+		B0FEFDE31997F478006196F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0FEFDE41997F478006196F3 /* MediaSocialTests-Info.plist */,
+				B0FEFDE51997F478006196F3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0FEFDB91997F477006196F3 /* MediaSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0FEFDEC1997F478006196F3 /* Build configuration list for PBXNativeTarget "MediaSocial" */;
+			buildPhases = (
+				B0FEFDB61997F477006196F3 /* Sources */,
+				B0FEFDB71997F477006196F3 /* Frameworks */,
+				B0FEFDB81997F477006196F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaSocial;
+			productName = MediaSocial;
+			productReference = B0FEFDBA1997F477006196F3 /* MediaSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0FEFDDA1997F478006196F3 /* MediaSocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0FEFDEF1997F478006196F3 /* Build configuration list for PBXNativeTarget "MediaSocialTests" */;
+			buildPhases = (
+				B0FEFDD71997F478006196F3 /* Sources */,
+				B0FEFDD81997F478006196F3 /* Frameworks */,
+				B0FEFDD91997F478006196F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0FEFDE11997F478006196F3 /* PBXTargetDependency */,
+			);
+			name = MediaSocialTests;
+			productName = MediaSocialTests;
+			productReference = B0FEFDDB1997F478006196F3 /* MediaSocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0FEFDB21997F477006196F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FWK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ariel Rodriguez";
+				TargetAttributes = {
+					B0FEFDDA1997F478006196F3 = {
+						TestTargetID = B0FEFDB91997F477006196F3;
+					};
+				};
+			};
+			buildConfigurationList = B0FEFDB51997F477006196F3 /* Build configuration list for PBXProject "MediaSocial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0FEFDB11997F477006196F3;
+			productRefGroup = B0FEFDBB1997F477006196F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0FEFDB91997F477006196F3 /* MediaSocial */,
+				B0FEFDDA1997F478006196F3 /* MediaSocialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0FEFDB81997F477006196F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FEFDD61997F477006196F3 /* Images.xcassets in Resources */,
+				B0FEFDC81997F477006196F3 /* InfoPlist.strings in Resources */,
+				B0FEFDD11997F477006196F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FEFDD91997F478006196F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FEFDE71997F478006196F3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0FEFDB61997F477006196F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FEFDD41997F477006196F3 /* FWKViewController.m in Sources */,
+				B0FEFDCA1997F477006196F3 /* main.m in Sources */,
+				B0FEFDCE1997F477006196F3 /* FWKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0FEFDD71997F478006196F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FEFDE91997F478006196F3 /* MediaSocialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0FEFDE11997F478006196F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0FEFDB91997F477006196F3 /* MediaSocial */;
+			targetProxy = B0FEFDE01997F478006196F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0FEFDC61997F477006196F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0FEFDC71997F477006196F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0FEFDCF1997F477006196F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0FEFDD01997F477006196F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0FEFDE51997F478006196F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0FEFDE61997F478006196F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0FEFDEA1997F478006196F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B0FEFDEB1997F478006196F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0FEFDED1997F478006196F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaSocial/MediaSocial-Prefix.pch";
+				INFOPLIST_FILE = "MediaSocial/MediaSocial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0FEFDEE1997F478006196F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaSocial/MediaSocial-Prefix.pch";
+				INFOPLIST_FILE = "MediaSocial/MediaSocial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B0FEFDF01997F478006196F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MediaSocial.app/MediaSocial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaSocial/MediaSocial-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MediaSocialTests/MediaSocialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B0FEFDF11997F478006196F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MediaSocial.app/MediaSocial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaSocial/MediaSocial-Prefix.pch";
+				INFOPLIST_FILE = "MediaSocialTests/MediaSocialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0FEFDB51997F477006196F3 /* Build configuration list for PBXProject "MediaSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FEFDEA1997F478006196F3 /* Debug */,
+				B0FEFDEB1997F478006196F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0FEFDEC1997F478006196F3 /* Build configuration list for PBXNativeTarget "MediaSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FEFDED1997F478006196F3 /* Debug */,
+				B0FEFDEE1997F478006196F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0FEFDEF1997F478006196F3 /* Build configuration list for PBXNativeTarget "MediaSocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0FEFDF01997F478006196F3 /* Debug */,
+				B0FEFDF11997F478006196F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0FEFDB21997F477006196F3 /* Project object */;
+}
