@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B0F713901998148B00882E82 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F7138F1998148B00882E82 /* AVFoundation.framework */; };
 		B0F713931998163700882E82 /* FWKListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F713921998163700882E82 /* FWKListTableViewController.m */; };
+		B0F713961998167E00882E82 /* FWKRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F713951998167E00882E82 /* FWKRecorderViewController.m */; };
 		B0FEFDBE1997F477006196F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDBD1997F477006196F3 /* Foundation.framework */; };
 		B0FEFDC01997F477006196F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDBF1997F477006196F3 /* CoreGraphics.framework */; };
 		B0FEFDC21997F477006196F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDC11997F477006196F3 /* UIKit.framework */; };
@@ -66,6 +67,8 @@
 		B0F7138F1998148B00882E82 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B0F713911998163700882E82 /* FWKListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWKListTableViewController.h; sourceTree = "<group>"; };
 		B0F713921998163700882E82 /* FWKListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWKListTableViewController.m; sourceTree = "<group>"; };
+		B0F713941998167E00882E82 /* FWKRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWKRecorderViewController.h; sourceTree = "<group>"; };
+		B0F713951998167E00882E82 /* FWKRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWKRecorderViewController.m; sourceTree = "<group>"; };
 		B0FEFDBA1997F477006196F3 /* MediaSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FEFDBD1997F477006196F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B0FEFDBF1997F477006196F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -206,6 +209,8 @@
 				B0FEFDC41997F477006196F3 /* Supporting Files */,
 				B0F713911998163700882E82 /* FWKListTableViewController.h */,
 				B0F713921998163700882E82 /* FWKListTableViewController.m */,
+				B0F713941998167E00882E82 /* FWKRecorderViewController.h */,
+				B0F713951998167E00882E82 /* FWKRecorderViewController.m */,
 			);
 			path = MediaSocial;
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 				B0FEFDD41997F477006196F3 /* FWKViewController.m in Sources */,
 				B0FEFDCA1997F477006196F3 /* main.m in Sources */,
 				B0F713931998163700882E82 /* FWKListTableViewController.m in Sources */,
+				B0F713961998167E00882E82 /* FWKRecorderViewController.m in Sources */,
 				B0FEFDCE1997F477006196F3 /* FWKAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
