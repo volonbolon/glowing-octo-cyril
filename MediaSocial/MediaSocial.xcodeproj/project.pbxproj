@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0F713901998148B00882E82 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F7138F1998148B00882E82 /* AVFoundation.framework */; };
+		B0F713931998163700882E82 /* FWKListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F713921998163700882E82 /* FWKListTableViewController.m */; };
 		B0FEFDBE1997F477006196F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDBD1997F477006196F3 /* Foundation.framework */; };
 		B0FEFDC01997F477006196F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDBF1997F477006196F3 /* CoreGraphics.framework */; };
 		B0FEFDC21997F477006196F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDC11997F477006196F3 /* UIKit.framework */; };
@@ -61,6 +63,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B0F7138F1998148B00882E82 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B0F713911998163700882E82 /* FWKListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWKListTableViewController.h; sourceTree = "<group>"; };
+		B0F713921998163700882E82 /* FWKListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWKListTableViewController.m; sourceTree = "<group>"; };
 		B0FEFDBA1997F477006196F3 /* MediaSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FEFDBD1997F477006196F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B0FEFDBF1997F477006196F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0F713901998148B00882E82 /* AVFoundation.framework in Frameworks */,
 				B0FEFDF71997F68F006196F3 /* libz.dylib in Frameworks */,
 				B0FEFE061997F6D7006196F3 /* UICKeyChainStore.framework in Frameworks */,
 				B0FEFE031997F6D7006196F3 /* Mantle.framework in Frameworks */,
@@ -167,6 +173,7 @@
 		B0FEFDBC1997F477006196F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0F7138F1998148B00882E82 /* AVFoundation.framework */,
 				B0FEFE261997F9D9006196F3 /* AWSCognitoSync.framework */,
 				B0FEFDF81997F6D7006196F3 /* Bolts.framework */,
 				B0FEFDF91997F6D7006196F3 /* CSURITemplate.framework */,
@@ -197,6 +204,8 @@
 				B0FEFDD31997F477006196F3 /* FWKViewController.m */,
 				B0FEFDD51997F477006196F3 /* Images.xcassets */,
 				B0FEFDC41997F477006196F3 /* Supporting Files */,
+				B0F713911998163700882E82 /* FWKListTableViewController.h */,
+				B0F713921998163700882E82 /* FWKListTableViewController.m */,
 			);
 			path = MediaSocial;
 			sourceTree = "<group>";
@@ -360,6 +369,7 @@
 			files = (
 				B0FEFDD41997F477006196F3 /* FWKViewController.m in Sources */,
 				B0FEFDCA1997F477006196F3 /* main.m in Sources */,
+				B0F713931998163700882E82 /* FWKListTableViewController.m in Sources */,
 				B0FEFDCE1997F477006196F3 /* FWKAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,6 +587,7 @@
 				B0FEFDEE1997F478006196F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0FEFDEF1997F478006196F3 /* Build configuration list for PBXNativeTarget "MediaSocialTests" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +596,7 @@
 				B0FEFDF11997F478006196F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
