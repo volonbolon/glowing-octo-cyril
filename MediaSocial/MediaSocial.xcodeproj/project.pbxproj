@@ -21,6 +21,33 @@
 		B0FEFDDF1997F478006196F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDC11997F477006196F3 /* UIKit.framework */; };
 		B0FEFDE71997F478006196F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFDE51997F478006196F3 /* InfoPlist.strings */; };
 		B0FEFDE91997F478006196F3 /* MediaSocialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FEFDE81997F478006196F3 /* MediaSocialTests.m */; };
+		B0FEFDF31997F637006196F3 /* AWSiOSSDKv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDF21997F636006196F3 /* AWSiOSSDKv2.framework */; };
+		B0FEFDF51997F686006196F3 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDF41997F686006196F3 /* libsqlite3.0.dylib */; };
+		B0FEFDF71997F68F006196F3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDF61997F68F006196F3 /* libz.dylib */; };
+		B0FEFE001997F6D7006196F3 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDF81997F6D7006196F3 /* Bolts.framework */; };
+		B0FEFE011997F6D7006196F3 /* CSURITemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDF91997F6D7006196F3 /* CSURITemplate.framework */; };
+		B0FEFE021997F6D7006196F3 /* GZIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDFA1997F6D7006196F3 /* GZIP.framework */; };
+		B0FEFE031997F6D7006196F3 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDFB1997F6D7006196F3 /* Mantle.framework */; };
+		B0FEFE041997F6D7006196F3 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDFC1997F6D7006196F3 /* Reachability.framework */; };
+		B0FEFE051997F6D7006196F3 /* TMCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDFD1997F6D7006196F3 /* TMCache.framework */; };
+		B0FEFE061997F6D7006196F3 /* UICKeyChainStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDFE1997F6D7006196F3 /* UICKeyChainStore.framework */; };
+		B0FEFE071997F6D7006196F3 /* XMLDictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFDFF1997F6D7006196F3 /* XMLDictionary.framework */; };
+		B0FEFE171997F6ED006196F3 /* autoscaling-2011-01-01.json in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFE081997F6ED006196F3 /* autoscaling-2011-01-01.json */; };
+		B0FEFE181997F6ED006196F3 /* cib-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFE091997F6ED006196F3 /* cib-2014-06-30.json */; };
+		B0FEFE191997F6ED006196F3 /* css-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFE0A1997F6ED006196F3 /* css-2014-06-30.json */; };
+		B0FEFE1A1997F6ED006196F3 /* dynamodb-2012-08-10.json in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFE0B1997F6ED006196F3 /* dynamodb-2012-08-10.json */; };
+		B0FEFE1B1997F6ED006196F3 /* ec2-2014-05-01.json in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFE0C1997F6ED006196F3 /* ec2-2014-05-01.json */; };
+		B0FEFE1C1997F6ED006196F3 /* elasticloadbalancing-2012-06-01.json in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFE0D1997F6ED006196F3 /* elasticloadbalancing-2012-06-01.json */; };
+		B0FEFE1D1997F6ED006196F3 /* email-2010-12-01.json in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFE0E1997F6ED006196F3 /* email-2010-12-01.json */; };
+		B0FEFE1E1997F6ED006196F3 /* kinesis-2013-12-02.json in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFE0F1997F6ED006196F3 /* kinesis-2013-12-02.json */; };
+		B0FEFE1F1997F6ED006196F3 /* mobileanalytics-2014-06-30.json in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFE101997F6ED006196F3 /* mobileanalytics-2014-06-30.json */; };
+		B0FEFE201997F6ED006196F3 /* monitoring-2010-08-01.json in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFE111997F6ED006196F3 /* monitoring-2010-08-01.json */; };
+		B0FEFE211997F6ED006196F3 /* s3-2006-03-01.json in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFE121997F6ED006196F3 /* s3-2006-03-01.json */; };
+		B0FEFE221997F6ED006196F3 /* sdb-2009-04-15.json in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFE131997F6ED006196F3 /* sdb-2009-04-15.json */; };
+		B0FEFE231997F6ED006196F3 /* sns-2010-03-31.json in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFE141997F6ED006196F3 /* sns-2010-03-31.json */; };
+		B0FEFE241997F6ED006196F3 /* sqs-2012-11-05.json in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFE151997F6ED006196F3 /* sqs-2012-11-05.json */; };
+		B0FEFE251997F6ED006196F3 /* sts-2011-06-15.json in Resources */ = {isa = PBXBuildFile; fileRef = B0FEFE161997F6ED006196F3 /* sts-2011-06-15.json */; };
+		B0FEFE271997F9D9006196F3 /* AWSCognitoSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FEFE261997F9D9006196F3 /* AWSCognitoSync.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +80,33 @@
 		B0FEFDE41997F478006196F3 /* MediaSocialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MediaSocialTests-Info.plist"; sourceTree = "<group>"; };
 		B0FEFDE61997F478006196F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B0FEFDE81997F478006196F3 /* MediaSocialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaSocialTests.m; sourceTree = "<group>"; };
+		B0FEFDF21997F636006196F3 /* AWSiOSSDKv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSiOSSDKv2.framework; sourceTree = "<group>"; };
+		B0FEFDF41997F686006196F3 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		B0FEFDF61997F68F006196F3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B0FEFDF81997F6D7006196F3 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		B0FEFDF91997F6D7006196F3 /* CSURITemplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CSURITemplate.framework; sourceTree = "<group>"; };
+		B0FEFDFA1997F6D7006196F3 /* GZIP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GZIP.framework; sourceTree = "<group>"; };
+		B0FEFDFB1997F6D7006196F3 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mantle.framework; sourceTree = "<group>"; };
+		B0FEFDFC1997F6D7006196F3 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reachability.framework; sourceTree = "<group>"; };
+		B0FEFDFD1997F6D7006196F3 /* TMCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TMCache.framework; sourceTree = "<group>"; };
+		B0FEFDFE1997F6D7006196F3 /* UICKeyChainStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UICKeyChainStore.framework; sourceTree = "<group>"; };
+		B0FEFDFF1997F6D7006196F3 /* XMLDictionary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XMLDictionary.framework; sourceTree = "<group>"; };
+		B0FEFE081997F6ED006196F3 /* autoscaling-2011-01-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "autoscaling-2011-01-01.json"; sourceTree = "<group>"; };
+		B0FEFE091997F6ED006196F3 /* cib-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "cib-2014-06-30.json"; sourceTree = "<group>"; };
+		B0FEFE0A1997F6ED006196F3 /* css-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "css-2014-06-30.json"; sourceTree = "<group>"; };
+		B0FEFE0B1997F6ED006196F3 /* dynamodb-2012-08-10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "dynamodb-2012-08-10.json"; sourceTree = "<group>"; };
+		B0FEFE0C1997F6ED006196F3 /* ec2-2014-05-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ec2-2014-05-01.json"; sourceTree = "<group>"; };
+		B0FEFE0D1997F6ED006196F3 /* elasticloadbalancing-2012-06-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "elasticloadbalancing-2012-06-01.json"; sourceTree = "<group>"; };
+		B0FEFE0E1997F6ED006196F3 /* email-2010-12-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "email-2010-12-01.json"; sourceTree = "<group>"; };
+		B0FEFE0F1997F6ED006196F3 /* kinesis-2013-12-02.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "kinesis-2013-12-02.json"; sourceTree = "<group>"; };
+		B0FEFE101997F6ED006196F3 /* mobileanalytics-2014-06-30.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "mobileanalytics-2014-06-30.json"; sourceTree = "<group>"; };
+		B0FEFE111997F6ED006196F3 /* monitoring-2010-08-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "monitoring-2010-08-01.json"; sourceTree = "<group>"; };
+		B0FEFE121997F6ED006196F3 /* s3-2006-03-01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "s3-2006-03-01.json"; sourceTree = "<group>"; };
+		B0FEFE131997F6ED006196F3 /* sdb-2009-04-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sdb-2009-04-15.json"; sourceTree = "<group>"; };
+		B0FEFE141997F6ED006196F3 /* sns-2010-03-31.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sns-2010-03-31.json"; sourceTree = "<group>"; };
+		B0FEFE151997F6ED006196F3 /* sqs-2012-11-05.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sqs-2012-11-05.json"; sourceTree = "<group>"; };
+		B0FEFE161997F6ED006196F3 /* sts-2011-06-15.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sts-2011-06-15.json"; sourceTree = "<group>"; };
+		B0FEFE261997F9D9006196F3 /* AWSCognitoSync.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCognitoSync.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +114,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0FEFDF71997F68F006196F3 /* libz.dylib in Frameworks */,
+				B0FEFE061997F6D7006196F3 /* UICKeyChainStore.framework in Frameworks */,
+				B0FEFE031997F6D7006196F3 /* Mantle.framework in Frameworks */,
+				B0FEFE051997F6D7006196F3 /* TMCache.framework in Frameworks */,
+				B0FEFE021997F6D7006196F3 /* GZIP.framework in Frameworks */,
+				B0FEFE271997F9D9006196F3 /* AWSCognitoSync.framework in Frameworks */,
+				B0FEFDF51997F686006196F3 /* libsqlite3.0.dylib in Frameworks */,
+				B0FEFE071997F6D7006196F3 /* XMLDictionary.framework in Frameworks */,
+				B0FEFE041997F6D7006196F3 /* Reachability.framework in Frameworks */,
 				B0FEFDC01997F477006196F3 /* CoreGraphics.framework in Frameworks */,
+				B0FEFDF31997F637006196F3 /* AWSiOSSDKv2.framework in Frameworks */,
 				B0FEFDC21997F477006196F3 /* UIKit.framework in Frameworks */,
+				B0FEFE011997F6D7006196F3 /* CSURITemplate.framework in Frameworks */,
 				B0FEFDBE1997F477006196F3 /* Foundation.framework in Frameworks */,
+				B0FEFE001997F6D7006196F3 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +167,18 @@
 		B0FEFDBC1997F477006196F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0FEFE261997F9D9006196F3 /* AWSCognitoSync.framework */,
+				B0FEFDF81997F6D7006196F3 /* Bolts.framework */,
+				B0FEFDF91997F6D7006196F3 /* CSURITemplate.framework */,
+				B0FEFDFA1997F6D7006196F3 /* GZIP.framework */,
+				B0FEFDFB1997F6D7006196F3 /* Mantle.framework */,
+				B0FEFDFC1997F6D7006196F3 /* Reachability.framework */,
+				B0FEFDFD1997F6D7006196F3 /* TMCache.framework */,
+				B0FEFDFE1997F6D7006196F3 /* UICKeyChainStore.framework */,
+				B0FEFDFF1997F6D7006196F3 /* XMLDictionary.framework */,
+				B0FEFDF61997F68F006196F3 /* libz.dylib */,
+				B0FEFDF41997F686006196F3 /* libsqlite3.0.dylib */,
+				B0FEFDF21997F636006196F3 /* AWSiOSSDKv2.framework */,
 				B0FEFDBD1997F477006196F3 /* Foundation.framework */,
 				B0FEFDBF1997F477006196F3 /* CoreGraphics.framework */,
 				B0FEFDC11997F477006196F3 /* UIKit.framework */,
@@ -126,6 +204,21 @@
 		B0FEFDC41997F477006196F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B0FEFE081997F6ED006196F3 /* autoscaling-2011-01-01.json */,
+				B0FEFE091997F6ED006196F3 /* cib-2014-06-30.json */,
+				B0FEFE0A1997F6ED006196F3 /* css-2014-06-30.json */,
+				B0FEFE0B1997F6ED006196F3 /* dynamodb-2012-08-10.json */,
+				B0FEFE0C1997F6ED006196F3 /* ec2-2014-05-01.json */,
+				B0FEFE0D1997F6ED006196F3 /* elasticloadbalancing-2012-06-01.json */,
+				B0FEFE0E1997F6ED006196F3 /* email-2010-12-01.json */,
+				B0FEFE0F1997F6ED006196F3 /* kinesis-2013-12-02.json */,
+				B0FEFE101997F6ED006196F3 /* mobileanalytics-2014-06-30.json */,
+				B0FEFE111997F6ED006196F3 /* monitoring-2010-08-01.json */,
+				B0FEFE121997F6ED006196F3 /* s3-2006-03-01.json */,
+				B0FEFE131997F6ED006196F3 /* sdb-2009-04-15.json */,
+				B0FEFE141997F6ED006196F3 /* sns-2010-03-31.json */,
+				B0FEFE151997F6ED006196F3 /* sqs-2012-11-05.json */,
+				B0FEFE161997F6ED006196F3 /* sts-2011-06-15.json */,
 				B0FEFDC51997F477006196F3 /* MediaSocial-Info.plist */,
 				B0FEFDC61997F477006196F3 /* InfoPlist.strings */,
 				B0FEFDC91997F477006196F3 /* main.m */,
@@ -229,9 +322,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0FEFE231997F6ED006196F3 /* sns-2010-03-31.json in Resources */,
+				B0FEFE181997F6ED006196F3 /* cib-2014-06-30.json in Resources */,
+				B0FEFE1C1997F6ED006196F3 /* elasticloadbalancing-2012-06-01.json in Resources */,
+				B0FEFE1F1997F6ED006196F3 /* mobileanalytics-2014-06-30.json in Resources */,
+				B0FEFE1B1997F6ED006196F3 /* ec2-2014-05-01.json in Resources */,
+				B0FEFE1D1997F6ED006196F3 /* email-2010-12-01.json in Resources */,
+				B0FEFE251997F6ED006196F3 /* sts-2011-06-15.json in Resources */,
+				B0FEFE1E1997F6ED006196F3 /* kinesis-2013-12-02.json in Resources */,
+				B0FEFE241997F6ED006196F3 /* sqs-2012-11-05.json in Resources */,
 				B0FEFDD61997F477006196F3 /* Images.xcassets in Resources */,
+				B0FEFE211997F6ED006196F3 /* s3-2006-03-01.json in Resources */,
 				B0FEFDC81997F477006196F3 /* InfoPlist.strings in Resources */,
+				B0FEFE221997F6ED006196F3 /* sdb-2009-04-15.json in Resources */,
+				B0FEFE171997F6ED006196F3 /* autoscaling-2011-01-01.json in Resources */,
 				B0FEFDD11997F477006196F3 /* Main.storyboard in Resources */,
+				B0FEFE191997F6ED006196F3 /* css-2014-06-30.json in Resources */,
+				B0FEFE201997F6ED006196F3 /* monitoring-2010-08-01.json in Resources */,
+				B0FEFE1A1997F6ED006196F3 /* dynamodb-2012-08-10.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,9 +487,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MediaSocial/MediaSocial-Prefix.pch";
 				INFOPLIST_FILE = "MediaSocial/MediaSocial-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,9 +505,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MediaSocial/MediaSocial-Prefix.pch";
 				INFOPLIST_FILE = "MediaSocial/MediaSocial-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -7,12 +7,22 @@
 //
 
 #import "FWKAppDelegate.h"
+#import <AWSiOSSDKv2/AWSCore.h>
+
+NSString *const kAWSAccessKey = @"AKIAJO7YH3OQ7H5YUJWQ";
+NSString *const kAWSAccessSecret = @"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";
+
 
 @implementation FWKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    AWSStaticCredentialsProvider *credentialsProvider = [AWSStaticCredentialsProvider credentialsWithAccessKey:kAWSAccessKey
+                                                                                                     secretKey:kAWSAccessSecret];
+    AWSServiceConfiguration *configuration = [AWSServiceConfiguration configurationWithRegion:AWSRegionUSEast1 credentialsProvider:credentialsProvider];
+    [[AWSServiceManager defaultServiceManager] setDefaultServiceConfiguration:configuration];
+    
     return YES;
 }
 							

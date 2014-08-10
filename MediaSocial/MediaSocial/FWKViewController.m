@@ -7,6 +7,8 @@
 //
 
 #import "FWKViewController.h"
+#import <AWSiOSSDKv2/S3.h>
+
 
 @interface FWKViewController ()
 
@@ -24,6 +26,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)postAdButtonPushed:(id)sender
+{
+
 }
 
 @end
